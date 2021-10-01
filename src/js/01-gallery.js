@@ -12,7 +12,7 @@ const galleryArrayEl = galleryItems.map(image => `<div class="gallery__item">
 </div>
 `).join('');
 
-galleryBoxEl.insertAdjacentHTML('afterbegin', galleryArrayEl)
+galleryBoxEl.insertAdjacentHTML('afterbegin', galleryArrayEl);
 
 const lightbox = new SimpleLightbox('.gallery a', {
     captionsData: "alt",
